@@ -22,15 +22,15 @@
 
         <!-- btn menu -->
         <section>    
-            <button class="btn-menu">Luas Persegi</button>
-            <button class="btn-menu">Keliling Persegi</button> 
+            <button class="btn-menu" id="btn_luas_persegi">Luas Persegi</button>
+            <button class="btn-menu" id="btn_keliling_persegi">Keliling Persegi</button> 
         </section>
     </div>
 
     <!-- content-head -->
     <div class="content-head">
         <section>
-            <h1>Luas Persegi</h1>
+            <h1 id="content-head-h1">Silahkan Pilih Menu Diatas !</h1>
         </section>
     </div>
     
@@ -41,33 +41,40 @@
         </section>
 
         <section class="content-1-p">
-            <p>Rumus Luas Persegi Yaitu :</p>
-            <p class="p-formula">L = S X S</p>
+            <p id="desc-title">Rumus Persegi Yaitu :</p>
+            <p id="desc-formula" class="p-formula"></p>
             <p>Dimana :</p>
-            <p>L = Luas</p>
-            <p>S = Sisi</p>
+            <p id="desc-l"></p>
+            <p id="desc-s"></p>
         </section>
 
         <div class="content-2">
-            <h1>Hitung Luas Persegi</h1>
+            <h1 class="content-2-h1" >Hitung</h1>
+            <h1 class="content-2-h1" id="content-2-h1"></h1>
+            <h1 class="content-2-h1">Persegi</h1>
+        </div>
+
+        <div class="content-3">
+            <!-- <h1 class="content-3-h1" id="result" aria-readonly="true">Hasil</h1> -->
+            <input type="text" id="result" value="Hasil"  readonly>
         </div>
 
         <section>
-            <input type="number" placeholder="Nilai sisi...">
+            <input type="number" id="inputs" placeholder="Nilai sisi...">
         </section>
 
         <section class="btn-act">
-            <a href="#"><button class="btn-action" id="btn-action-ht">Hitung</button></a>
-            <a href="#"><button class="btn-action" id="btn-action-rt">Reset</button></a>
+            <button class="btn-action" id="btn-action-ht">Hitung</button>
+            <button class="btn-action" id="btn-action-rt">Reset</button>
         </section>
     </div>
 
     <!-- footer -->
     <footer>
-        <h3>Katik</h3>
+        <h3>RevoU Katik</h3>
         <h3>Created by</h3>
         <h3 id="username">@rizkitaufiq</h3>
     </footer>
-    
+    <script type="text/javascript" src="js/script.js">
 </body>
 </html>

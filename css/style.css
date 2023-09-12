@@ -15,6 +15,11 @@ header{
     justify-content: center;
 }
 
+h1{
+
+    color:white;
+}
+
 h2{
     margin-top: 24px;
     margin-left: 10px;
@@ -34,6 +39,10 @@ p{
 .content-title-h1{
     margin-bottom: 5px;
     color: #96B6C5;
+}
+
+#content-head-h1{
+    color: white;
 }
 
 .btn-menu{
@@ -99,25 +108,47 @@ button{
 
 .content-2{
     border-top: 2px solid #96B6C5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     height: 15%;
-    margin-left: -2px;
-    margin-right: -2px;
-    margin-top: 120px;
+    margin-top: 140px;
     text-align: center;
     font-size: 12px;
+}
+
+.content-2-h1{
+    color: #96B6C5;
+    margin: 2px;
+    margin-top: 2%;
 }
 
 .content-3{
-    border: 2px solid #96B6C5;
-    height: 15%;
-    margin-left: -2px;
-    margin-right: -2px;
-    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #96B6C5;
+}
+
+.content-3-h1{
+    color: #E48586;
+    margin-top: 2%;
+}
+
+#result{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #E48586;
+    border: none;
+    margin-left: -2.5%;
     text-align: center;
-    font-size: 12px;
+    font-size: 25px;
+    width: 20%;
+    height: 20%;
 }
 
 input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 3px solid #96B6C5;
     border-radius: 4px;
     margin-top: 6px;
